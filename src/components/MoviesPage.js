@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, useRouteMatch } from 'react-router-dom'
-import MoviesList from './MoviesList'
+import MoviesList from './MovieList'
 import MovieShow from './MovieShow'
 
 function MoviesPage({ movies }) {
@@ -21,3 +21,4 @@ function MoviesPage({ movies }) {
     </div>
   )
 }
+export default MoviesPage;
